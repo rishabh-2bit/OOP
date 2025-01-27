@@ -18,7 +18,7 @@ public class JdbcConection {
             System.out.println("connection created...");
             // create a statement object with connection
             Statement st = cn.createStatement();
-            String query = "INSERT INTO users(id, name) VALUES (1, 'User1')";
+            String query = "INSERT INTO users(id, name) VALUES (2, 'User2')";
             // call execute method using statement
             int rowAffected = st.executeUpdate(query);
             if (rowAffected > 0) {
